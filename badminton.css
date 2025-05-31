@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  padding: 15px;
+}
+
+.logo img {
+  height: 40px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+.logo1 img{
+  height: 40px;
+  position: absolute;
+  left: 170px;
+  top: 5px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+}
+
+.links li {
+  margin-left: 30px;
+}
+
+.links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+  font-family:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+  padding:30px;
+}
+
+.links a:hover {
+  color: black;
+  background-color: white;
+}
+.search-container input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  font-family:"Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
+}
+ input:focus::placeholder {
+  color:transparent;
+}
+          .bigbox{
+              margin-top: 10px;
+              margin-left: 5px;
+              
+          }
+          .contain{
+              margin:8px;
+              font-family: 'Montserrat', sans-serif;
+              color: rgb(52, 52, 52);
+              display:inline-block;
+              width: 220px;
+              height: 380px;
+              border: 16px rgb(255, 255, 255) solid;
+              background-color:rgb(255, 255, 255) ;
+              border-radius: 20px;
+              box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          }
+          .img1 {
+              justify-content: center;
+              display: flex;
+          }
+          p{
+              text-align: center;
+              font-weight: 700;         
+              letter-spacing: 0.1em;     
+              text-transform: uppercase;
+          }
+          .click{
+              justify-content: center;
+              display:flex ;
+              gap: 10px;
+          }
+          .click .button1 {
+              border: black solid;
+              background-color: white;
+              border-radius: 5px;
+              width: 75%;
+              padding-top:5px;
+              text-align: center;
+              position: relative;
+          }
+          .click .button2{
+              background-color: white;
+              border-radius: 5px;
+              height: 30px;
+              width: 30px;
+          }
+          a{
+              text-decoration: none;
+              color: black;
+              font-size: 13px;
+              font-weight: bold;
+          }
+          .click :hover{
+              background-color: rgb(178, 178, 178) ;
+              color: white;
+          }
+          .contain:hover {
+              transform: scale(1.05);
+      }

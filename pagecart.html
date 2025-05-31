@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart</title>
+    <style>
+        /* body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+        } */
+        .cart-item {
+            border: 1px solid #ddd;
+            width: 20%;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .checkout-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Shopping Cart</h1>
+    
+    <div id="cart-items">
+        <!-- Cart items will be dynamically inserted here -->
+        <div class="cart-item">
+            <h3>Product 1</h3>
+            <p>Quantity: 1</p>
+            <p>Price: $19.99</p>
+        </div>
+    </div>
+    
+    <div id="cart-total">
+        <h2>Total: $19.99</h2>
+    </div>
+    
+    <button id="checkout-button" class="checkout-btn">Proceed to Checkout</button>
+    
+    <script>
+        document.getElementById('checkout-button').addEventListener('click', function() {
+            window.location.href = 'checkout.html';
+        });
+    </script>
+</body>
+</html>
